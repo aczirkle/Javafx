@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane fx:id="tabs" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  >
+  <tabs>
+    <Tab id="tab1" text="Character" >
+      <content>
+        <AnchorPane fx:controller="Fallout.FXMLExampleController" fx:id="submit" minHeight="0.0" minWidth="0.0"  onMouseClicked="#handleSubmitButtonAction" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="274.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleSubmitButtonAction" text="Submit" />
+                  <TextField layoutX="14.0" layoutY="103.0" text="Name" />
+                  <TextField fx:id="actiontarget" layoutX="14.0" layoutY="208.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

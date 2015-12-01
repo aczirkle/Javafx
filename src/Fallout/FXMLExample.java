@@ -1,3 +1,4 @@
+package Fallout;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +20,7 @@ public class FXMLExample extends Application {
         
         stage.setTitle("FXML Welcome");
         stage.setScene(new Scene(root, 300, 275));
-        Submit.setOnAction(null);
+        //Submit.setOnAction(null);
         stage.show();
         
     }
